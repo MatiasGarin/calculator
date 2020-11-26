@@ -1,0 +1,64 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: black;
+}
+/* Utilitarias */
+.caja{
+	width: 350px;
+	height: 500px;
+	background-color: #323232;
+	padding: 1px 1px 1px 1px;
+	top: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.contenedor{
+	margin: 15px 10px 10px 10px;
+}
+
+/* Display */
+.pantalla{
+	background-color: #6E736D;
+	height: 50px;
+	padding: 5px 5px 5px 5px;
+	margin: 0 9px 0 9px;
+}
+.pantalla p{
+	font-size: 25px;
+	color: black;
+	margin: 9px 0 9px 5px;
+}
+
+/* Botones */
+.botones{
+	background-color: 9A919C;
+	height: 100%;
+	display: wrap;
+	flex-wrap: wrap;
+}
+.btn{
+	width: 63px;
+	height: 63px;
+	font-size: 20px;
+	border-style: none;
+	margin: 8px 8px;
+}
+.btn-full{
+	width: 95%;
+}
+.btn:hover{
+	border-style: none;
+	opacity: 60%;
+	transition: background-color .7s;
+}
+.one{
+	background-color: #3C41BF;
+}
+.two {
+	background-color: #291817;
+	color: white;
+}

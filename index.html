@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<main>
+		<div class="caja">
+			<div class="contenedor">
+				<div class="pantalla">
+					<p id="display"> </p>
+				</div>
+			</div>
+
+		<div class="contenedor">
+			<div class="botones">
+				<input type="button" onclick="agregar('7')" class="btn one" value="7">
+				<input type="button" onclick="agregar('8')" class="btn one" value="8">
+				<input type="button" onclick="agregar('9')" class="btn one" value="9">
+				<input type="button" onclick="eliminar()" class="btn two" value="<">
+
+				<input type="button" onclick="agregar('4')" class="btn one" value="4">
+				<input type="button" onclick="agregar('5')" class="btn one" value="5">
+				<input type="button" onclick="agregar('6')" class="btn one" value="6">
+				<input type="button" onclick="agregar('*')" class="btn two" value="*">
+
+				<input type="button" onclick="agregar('1')" class="btn one" value="1">
+				<input type="button" onclick="agregar('2')" class="btn one" value="2">
+				<input type="button" onclick="agregar('3')" class="btn one" value="3">
+				<input type="button" onclick="agregar('+')" class="btn two" value="+">
+				
+				<input type="button" onclick="agregar('0')" class="btn one" value="0">
+				<input type="button" onclick="agregar('/')" class="btn two" value="/">
+				<input type="button" onclick="agregar('-')" class="btn two" value="-">
+				<input type="button" onclick="resolver()" class="btn two" value="=">
+				
+				<input type="button" onclick="limpiar()" class="btn two btn-full" value="CLEAR">
+			</div>
+
+		</div>			
+			
+		</div>
+	</main>
+
+</body>
+</html>
